@@ -1,0 +1,28 @@
+.contenido {
+    margin: 100px;
+}
+
+.inicio {
+    text-align: center;
+}
+
+.inicio p {
+    text-align: justify;
+}
+
+.lista {
+    text-align: center;
+}
+
+.lista ul {
+    text-align: left;
+    display: inline-block;
+}
+
+.secciones h2 {
+    text-align: center;
+}
+
+img {
+    vertical-align: middle;
+}

@@ -1,3 +1,20 @@
+body {
+    background-color: #140880;
+}
+
+.inicio h1 {
+    font-size: 50px;
+}
+
+.inicio p {
+    font-size: larger;
+    color: #ffffff;
+}
+
+.inicio h2 {
+    font-size: 30px;
+}
+
 .contenido {
     margin: 100px;
 }
@@ -11,6 +28,7 @@
 }
 
 .lista {
+    color: #ffffff;
     text-align: center;
 }
 
@@ -25,4 +43,8 @@
 
 img {
     vertical-align: middle;
+}
+
+.imagen a {
+    color: #ffffff;
 }

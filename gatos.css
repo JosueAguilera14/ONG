@@ -1,4 +1,9 @@
+body {
+    background-color: #140880;
+}
+
 .linkinicio {
+    color: #ffffff;
     float: right;
 }
 
@@ -7,6 +12,7 @@
 }
 
 .imagen p {
+    color: #ffffff;
     font-size: 30px;
     padding-top: 100px;
 }

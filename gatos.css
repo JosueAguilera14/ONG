@@ -1,0 +1,19 @@
+.linkinicio {
+    float: right;
+}
+
+.imagen {
+    margin: 100px;
+}
+
+.imagen p {
+    font-size: 30px;
+    padding-top: 100px;
+}
+
+img {
+    float: left;
+    width: 500px;
+    height: 400px;
+    padding-right: 50px;
+}

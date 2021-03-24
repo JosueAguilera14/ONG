@@ -1,0 +1,119 @@
+:root {
+    --pequeño: 200;
+    --regular: 400;
+    --negrita: 700;
+    --primario: #140880;
+    --secundario: #4e40ca;
+    --tamaño-chico: 2rem;
+    --tamaño-mediano: 3rem;
+    --tamaño-grande: 4rem;
+}
+
+html {
+    font-size: 62%;
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2415a8;
+}
+
+nav {
+    margin: auto;
+    width: 9rem;
+    font-size: var(--tamaño-chico);
+    margin-right: 1rem;
+    text-align: center;
+    background-color: var(--secundario);
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+nav:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: var(--pequeño);
+}
+
+.desc-perros {
+    background-color: var(--primario);
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+.desc-perros p {
+    font-size: var(--tamaño-chico);
+    line-height: 2;
+    text-align: left;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.desc-perros h1 {
+    font-size: var(--tamaño-grande);
+    text-transform: uppercase;
+    font-weight: var(--negrita);
+}
+
+.info-perros {
+    background-color: var(--primario);
+    padding: 1rem 2rem;
+    margin-top: 4rem;
+}
+
+.info-perros h2 {
+    font-size: var(--tamaño-mediano);
+    text-align: center;
+    font-weight: var(--regular);
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.perro {
+    display: flex;
+    align-items: center;
+    gap: 10rem;
+    width: 70%;
+    height: auto;
+}
+
+.perro img {
+    width: 40rem;
+    height: 100%;
+}
+
+.perro a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: var(--tamaño-mediano);
+    font-weight: var(--regular);
+    background-color: var(--secundario);
+    padding: 2rem 4rem;
+    width: 12rem;
+    height: 12rem;
+    text-align: center;
+    border: 0.1rem solid #000;
+    text-transform: uppercase;
+    border-radius: 50%;
+}
+
+.perro a:hover {
+    opacity: 0.5;
+    cursor: pointer;
+    color: #000;
+    font-weight: var(--negrita);
+}
